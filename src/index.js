@@ -8,7 +8,6 @@ import { formRef, galleryRef, loadRef } from './js/refs';
 
 formRef.addEventListener('submit', onSubmit);
 loadRef.addEventListener('click', onLoadClick);
-// galleryRef.addEventListener('click', onImgClick);
 
 const lightbox = new SimpleLightbox('.gallery a');
 
